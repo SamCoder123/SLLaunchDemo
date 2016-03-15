@@ -15,7 +15,6 @@
 		5FEFFDBD1C97E9EF00BC3781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FEFFDBB1C97E9EF00BC3781 /* LaunchScreen.storyboard */; };
 		5FEFFDC81C97E9EF00BC3781 /* SLLaunchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFFDC71C97E9EF00BC3781 /* SLLaunchDemoTests.m */; };
 		5FEFFDD31C97E9EF00BC3781 /* SLLaunchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFFDD21C97E9EF00BC3781 /* SLLaunchDemoUITests.m */; };
-		5FEFFDED1C97ED5800BC3781 /* begin_movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5FEFFDEC1C97ED5800BC3781 /* begin_movie.mp4 */; };
 		5FEFFDF21C98009300BC3781 /* SLAppLaunchPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFFDEF1C98009300BC3781 /* SLAppLaunchPanel.m */; };
 		5FEFFDF31C98009300BC3781 /* SLLaunchMoviePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFFDF11C98009300BC3781 /* SLLaunchMoviePlayerView.m */; };
 /* End PBXBuildFile section */
@@ -54,7 +53,6 @@
 		5FEFFDCE1C97E9EF00BC3781 /* SLLaunchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLLaunchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FEFFDD21C97E9EF00BC3781 /* SLLaunchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLLaunchDemoUITests.m; sourceTree = "<group>"; };
 		5FEFFDD41C97E9EF00BC3781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FEFFDEC1C97ED5800BC3781 /* begin_movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = begin_movie.mp4; sourceTree = "<group>"; };
 		5FEFFDEE1C98009300BC3781 /* SLAppLaunchPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAppLaunchPanel.h; sourceTree = "<group>"; };
 		5FEFFDEF1C98009300BC3781 /* SLAppLaunchPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAppLaunchPanel.m; sourceTree = "<group>"; };
 		5FEFFDF01C98009300BC3781 /* SLLaunchMoviePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLLaunchMoviePlayerView.h; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 		5FEFFDAC1C97E9EF00BC3781 /* SLLaunchDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5FEFFDEC1C97ED5800BC3781 /* begin_movie.mp4 */,
 				5FEFFDE01C97EB7200BC3781 /* SLLaunch */,
 				5FEFFDB01C97E9EF00BC3781 /* AppDelegate.h */,
 				5FEFFDB11C97E9EF00BC3781 /* AppDelegate.m */,
@@ -266,7 +263,6 @@
 			files = (
 				5FEFFDBD1C97E9EF00BC3781 /* LaunchScreen.storyboard in Resources */,
 				5FEFFDBA1C97E9EF00BC3781 /* Assets.xcassets in Resources */,
-				5FEFFDED1C97ED5800BC3781 /* begin_movie.mp4 in Resources */,
 				5FEFFDB81C97E9EF00BC3781 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +516,7 @@
 				5FEFFDD91C97E9EF00BC3781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FEFFDDA1C97E9EF00BC3781 /* Build configuration list for PBXNativeTarget "SLLaunchDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +525,7 @@
 				5FEFFDDC1C97E9EF00BC3781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FEFFDDD1C97E9EF00BC3781 /* Build configuration list for PBXNativeTarget "SLLaunchDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +534,7 @@
 				5FEFFDDF1C97E9EF00BC3781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
